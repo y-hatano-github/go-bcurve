@@ -1,4 +1,6 @@
 # Bézier curve 
+![gcurve](gcurve.png)
+
 ## What is this?
 This is sample code to draw Bézier curve on terminal.<br>
 
