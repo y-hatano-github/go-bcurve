@@ -89,7 +89,6 @@ func getCurvePoint(ps Points, t float64, cps *Points) {
 
 type Points []Point
 
-// 座標
 type Point struct {
 	X int
 	Y int
@@ -163,13 +162,3 @@ func line(x1, y1, x2, y2 int) []Point {
 
 	return ps
 }
-
-// if(points.length==1):
-// draw(points[0])
-// else:
-// newpoints=array(points.size-1)
-// for(i=0; i<newpoints.length; i++):
-//   x = (1-t) * points[i].x + t * points[i+1].x
-//   y = (1-t) * points[i].y + t * points[i+1].y
-//   newpoints[i] = new point(x,y)
-// drawCurvePoint(newpoints, t)
